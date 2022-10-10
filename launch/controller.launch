@@ -1,0 +1,9 @@
+<launch>
+
+<rosparam file="$(find omnitrak)/launch/controller.yaml" command="load"/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="Omnitrak" args="Rev42_position_controller Rev43_position_controller Rev44_position_controller Rev45_position_controller Rev60_position_controller Rev61_position_controller Rev62_position_controller Rev63_position_controller joint_state_controller "/>
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+  <remap from="/joint_states" to="/Omnitrak/joint_states"/>
+</node>
+
+</launch>

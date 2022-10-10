@@ -1,0 +1,39 @@
+Omnitrak_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  Rev42_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev42
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev43_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev43
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev44_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev44
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev45_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev45
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev60_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev60
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev61_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev61
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev62_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev62
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev63_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev63
+    pid: {p: 100.0, i: 0.01, d: 10.0}
