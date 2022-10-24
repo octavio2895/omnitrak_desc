@@ -3,9 +3,7 @@ Paquete para visualización del omnitrak en RVIZ y la simulación en Gazebo.
 
 # Pasos: 
 1. Descargar el paquete de este repositorio y descomprimirlo como "omnitrak_description" en: /home/catkin_ws/src
-2. Descargar las mallas (meshes) del siguiente Google Drive: 
-
-https://drive.google.com/drive/folders/138GZCuYr_zvqPTwIL-Sw-f9tEYIyxQQI?usp=sharing
+2. Descargar las mallas (meshes) del siguiente [Google Drive](https://drive.google.com/drive/folders/138GZCuYr_zvqPTwIL-Sw-f9tEYIyxQQI?usp=sharing)
 
 4. Descomprimir la carpeta de mallas y guardarla como "meshes" en el paquete "omnitrak_description"
 
@@ -24,6 +22,8 @@ roslaunch omnitrak_description display.launch
 ```
 
 ![Screenshot from 2022-10-24 15-33-07](https://user-images.githubusercontent.com/90019998/197624243-f547040b-32f6-4a45-80b3-e477138ab75f.png)
+
+Para poder mover las articulaciones por medio del slider es necesario tener instalado **joint_state_publisher**
 
 6. Para correr la simulación en Gazebo:
 ```
