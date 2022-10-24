@@ -16,7 +16,7 @@ catkin_make
 source devel/setup.bash
 roslaunch omnitrak_description display.launch
 
-![imagen](https://user-images.githubusercontent.com/90019998/197622286-a1bb1baa-533a-4a2f-9610-7e0bdae2bb54.png)
+![Screenshot from 2022-10-24 15-33-07](https://user-images.githubusercontent.com/90019998/197624243-f547040b-32f6-4a45-80b3-e477138ab75f.png)
 
 6. Para correr la simulación en Gazebo:
 source devel/setup.bash
@@ -24,4 +24,4 @@ roslaunch omnitrak_description gazebo.launch
 
 ![omnitrakgazebo](https://user-images.githubusercontent.com/90019998/197624234-7f31ff2f-2f6a-473e-9bc8-58b356c5c53a.png)
 
-![Screenshot from 2022-10-24 15-33-07](https://user-images.githubusercontent.com/90019998/197624243-f547040b-32f6-4a45-80b3-e477138ab75f.png)
+
