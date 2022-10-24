@@ -2,14 +2,21 @@
 Paquete para visualización del omnitrak en RVIZ y la simulación en Gazebo.
 
 # Pasos: 
-1. Descargar el paquete de este repositorio y descomprimirlo como "omnitrak_description" en: /home/catkin_ws/src
-2. Descargar las mallas (meshes) del siguiente [Google Drive](https://drive.google.com/drive/folders/138GZCuYr_zvqPTwIL-Sw-f9tEYIyxQQI?usp=sharing)
+1. Descargar el paquete de este repositorio y descomprimirlo como **omnitrak_description** en: 
+```
+/home/catkin_ws/src
+```
 
-4. Descomprimir la carpeta de mallas y guardarla como "meshes" en el paquete "omnitrak_description"
+3. Descargar las mallas (meshes) del siguiente [Google Drive](https://drive.google.com/drive/folders/138GZCuYr_zvqPTwIL-Sw-f9tEYIyxQQI?usp=sharing)
+
+4. Descomprimir la carpeta de mallas y guardarla como **meshes** en el paquete:
+```
+omnitrak_description
+```
 
 ![paquete](https://user-images.githubusercontent.com/90019998/197624462-787cd3b4-62fb-4045-ab21-736ad4fd9741.png)
 
-4. En la terminal de ubuntu: 
+4. En la terminal de Ubuntu: 
 ```
 cd catkin_ws
 catkin_make
