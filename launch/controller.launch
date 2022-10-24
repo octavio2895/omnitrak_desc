@@ -1,0 +1,9 @@
+<launch>
+
+<rosparam file="$(find omnitrak_description)/launch/controller.yaml" command="load"/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="omnitrak" args="revolute_acople_rigido_trasero_derecho_position_controller revolute_acople_rigido_trasero_izquierdo_position_controller revolute_acople_rigido_frontal_izquierdo_position_controller revolute_acople_rigido_frontal_derecho_position_controller revolute_rueda_trasera_derecha_position_controller revolute_rueda_trasera_izquierda_position_controller revolute_rueda_frontal_derecha_position_controller revolute_rueda_frontal_izquierda_position_controller joint_state_controller "/>
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+  <remap from="/joint_states" to="/omnitrak/joint_states"/>
+</node>
+
+</launch>
