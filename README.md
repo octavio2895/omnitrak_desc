@@ -1,5 +1,5 @@
 # Omnitrak
-Paquete para visualización del omnitrak en RVIZ y la simulación en Gazebo.
+Paquete para visualización del omnitrak en RVIZ y la simulación en Gazebo
 
 # Pasos: 
 1. Descargar el paquete de este repositorio y descomprimirlo como **omnitrak_description** en: 
