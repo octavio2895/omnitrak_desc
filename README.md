@@ -9,12 +9,12 @@ Paquete para visualización del omnitrak en RVIZ y la simulación en Gazebo.
 ![paquete](https://user-images.githubusercontent.com/90019998/197624462-787cd3b4-62fb-4045-ab21-736ad4fd9741.png)
 
 4. En la terminal de ubuntu: 
-cd catkin_ws
-catkin_make
+>*cd catkin_ws
+>*catkin_make
 
 5. Para correr la simulación en rviz:
-source devel/setup.bash
-roslaunch omnitrak_description display.launch
+>*source devel/setup.bash
+>*roslaunch omnitrak_description display.launch
 
 ![Screenshot from 2022-10-24 15-33-07](https://user-images.githubusercontent.com/90019998/197624243-f547040b-32f6-4a45-80b3-e477138ab75f.png)
 
