@@ -1,5 +1,5 @@
 # Omnitrak
-Paquete para visualización del omnitrak en RVIZ y la simulación en Gazebo
+Paquete para visualización del omnitrak en RViz y la simulación en Gazebo
 
 ![imagen](https://user-images.githubusercontent.com/90019998/197627431-4c818193-2cdf-47a8-a8ab-47962bb637af.png)
 
@@ -24,7 +24,7 @@ cd catkin_ws
 catkin_make
 ```
 
-5. Para correr la simulación en rviz:
+5. Para correr la simulación en RViz:
 ```
 source devel/setup.bash
 roslaunch omnitrak_description display.launch
