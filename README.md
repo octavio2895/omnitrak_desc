@@ -30,7 +30,7 @@ source devel/setup.bash
 roslaunch omnitrak_description display.launch
 ```
 
-![Screenshot from 2022-10-24 15-33-07](https://user-images.githubusercontent.com/90019998/197624243-f547040b-32f6-4a45-80b3-e477138ab75f.png)
+![rviz1](https://user-images.githubusercontent.com/90019998/198401639-d3a7c047-57eb-498a-b92c-c5715fcc12d6.png)
 
 Para poder mover las articulaciones por medio del slider es necesario tener instalado **joint_state_publisher**
 
