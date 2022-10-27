@@ -1,7 +1,7 @@
 # Omnitrak
 Paquete para visualización del Omnitrak en RViz y la simulación en Gazebo
 
-![imagen](https://user-images.githubusercontent.com/90019998/197627431-4c818193-2cdf-47a8-a8ab-47962bb637af.png)
+![imagen](https://user-images.githubusercontent.com/90019998/198402810-b88a3cf3-d40d-4015-a478-5c94348c33b9.png)
 
 # Pasos: 
 1. Descargar el paquete de este repositorio y descomprimirlo como **omnitrak_description** en: 
