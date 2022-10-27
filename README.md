@@ -40,6 +40,6 @@ source devel/setup.bash
 roslaunch omnitrak_description gazebo.launch
 ```
 
-![omnitrakgazebo](https://user-images.githubusercontent.com/90019998/197624234-7f31ff2f-2f6a-473e-9bc8-58b356c5c53a.png)
+![omnitrak1](https://user-images.githubusercontent.com/90019998/198398273-077b85a6-5d6d-4209-86bd-3a118901b732.png)
 
 
