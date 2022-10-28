@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="omnitrak" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <material name="black" >
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+
+  <material name="silver">
+    <color rgba="0.700 0.700 0.700 1.0"/>
+  </material>
+
+  <material name="grey">
+    <color rgba="0.5725490196078431 0.5843137254901961 0.5686274509803921 1.0"/>
+  </material>
+
+  <material name="steelgrey">
+    <color rgba="0.43529411764705883 0.5098039215686274 0.5411764705882353 1.0"/>
+  </material>
+
+</robot>
+
+
