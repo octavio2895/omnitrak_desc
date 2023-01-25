@@ -25,6 +25,11 @@
   </collision>
 </link>
 
+<link name="camera_link">
+</link>
+<link name="front_track_cam">
+</link>
+
 <link name="perfil_lateral_derecho_1">
   <inertial>
     <origin xyz="1.2079226507921704e-15 0.015003665289563206 4.0049043201206835e-07" rpy="0 0 0"/>
@@ -2520,6 +2525,12 @@
   <child link="d435_1"/>
 </joint>
 
+<joint name="d435i_fix" type="fixed">
+  <origin xyz="-0.000 0.0 -0.0" rpy="0 0 0"/>
+  <parent link="d435_1"/>
+  <child link="camera_link"/>
+</joint>
+
 <joint name="fixed_lidar1" type="fixed">
   <origin xyz="-0.01337 0.540008 -0.256719" rpy="0 0 0"/>
   <parent link="holder_1"/>
@@ -2536,6 +2547,12 @@
   <origin xyz="-0.0005 0.130049 -0.642637" rpy="0 0 0"/>
   <parent link="holder_1"/>
   <child link="td65_body_1"/>
+</joint>
+
+<joint name="t265_to_td65_fix" type="fixed">
+  <origin xyz="0.000 0.000 0.00" rpy="0 0 0"/>
+  <parent link="td65_body_1"/>
+  <child link="front_track_cam"/>
 </joint>
 
 <joint name="fixed_t265" type="fixed">
